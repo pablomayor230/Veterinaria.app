@@ -32,7 +32,8 @@ namespace Veterinaria.App.Persistencia{
                 duenioMascotaEncontrado.IdDuenioMascota = duenioMascotaNuevo.IdDuenioMascota;
                 duenioMascotaEncontrado.Nombre = duenioMascotaNuevo.Nombre;
                 duenioMascotaEncontrado.Telefono = duenioMascotaNuevo.Telefono;
-                duenioMascotaEncontrado.Correo = duenioMascotaNuevo.Correo;                                
+                duenioMascotaEncontrado.Correo = duenioMascotaNuevo.Correo;
+                                                
                 this.appContext.SaveChanges();  
                 return duenioMascotaEncontrado;              
             } else {
